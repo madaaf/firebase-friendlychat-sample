@@ -134,7 +134,7 @@ add annimation to present the concept of the App</string>
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="khH-bK-3ET" kind="show" id="fbt-8E-JLk"/>
+                        <segue destination="khH-bK-3ET" kind="show" identifier="loginVCSegue" id="fbt-8E-JLk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hw-P7-EvS" userLabel="First Responder" sceneMemberID="firstResponder"/>

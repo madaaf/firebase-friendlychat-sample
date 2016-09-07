@@ -29,13 +29,12 @@ class SplashViewController: ParentViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     print("soef")
-    sleep(4)
-
   }
 
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
-      performSegueWithIdentifier(SplashViewController.SEGUE_TUTORIAL, sender: nil)
+    sleep(4)
+    performSegueWithIdentifier(SplashViewController.SEGUE_TUTORIAL, sender: nil)
   }
 
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
