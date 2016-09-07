@@ -7,6 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
 class InscriptionViewController: ParentViewController {
+
+  override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
+  }
+
 }

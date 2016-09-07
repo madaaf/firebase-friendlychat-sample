@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mA8-Gl-c5I">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dhd-PN-qaO">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -39,12 +39,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6pN-Ob-Pwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="153" y="524"/>
+            <point key="canvasLocation" x="150" y="524"/>
         </scene>
-        <!--Account First Connection View Controller-->
+        <!--Portrait Navigation Controller-->
+        <scene sceneID="WsU-KI-wVp">
+            <objects>
+                <navigationController id="Dhd-PN-qaO" customClass="PortraitNavigationController" customModule="FriendlyChatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LaE-1U-AeV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="khH-bK-3ET" kind="relationship" relationship="rootViewController" id="VM4-LF-Mec"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6l-Jx-lCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="1250"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="rlW-EN-qH0">
             <objects>
-                <viewController id="khH-bK-3ET" customClass="AccountFirstConnectionViewController" customModule="FriendlyChatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="khH-bK-3ET" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mMZ-B8-5Gj"/>
                         <viewControllerLayoutGuide type="bottom" id="dmj-oh-Vm6"/>
@@ -61,14 +78,14 @@ add annimation to present the concept of the App</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhp-xR-1G8">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhp-xR-1G8">
                                 <rect key="frame" x="261" y="98" width="78" height="30"/>
                                 <state key="normal" title="Inscripton"/>
                                 <connections>
                                     <segue destination="p13-ET-ggC" kind="show" id="W6o-cD-XQF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvq-C6-TPH">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvq-C6-TPH">
                                 <rect key="frame" x="261" y="170" width="79" height="30"/>
                                 <state key="normal" title="Connection"/>
                                 <connections>
@@ -103,6 +120,7 @@ add annimation to present the concept of the App</string>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="W7G-z1-CZP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bct-jd-a5R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,19 +171,59 @@ add annimation to present the concept of the App</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connection" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYp-vs-SMI">
-                                <rect key="frame" x="256" y="289.5" width="88" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ET1-Tk-xxz">
+                                <rect key="frame" x="175" y="358" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="OQ7-Kj-png"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cpn-hx-zgT">
+                                <rect key="frame" x="175" y="285" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QOL-og-keo"/>
+                                    <constraint firstAttribute="width" constant="250" id="Qkh-4X-SPT"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="fmV-oK-6GQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="h4a-XU-KEj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmJ-WJ-Wer">
+                                <rect key="frame" x="251" y="521" width="98" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="CONNECTION">
+                                    <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="connectionDidTap:" destination="aMf-s7-oqR" eventType="touchUpInside" id="F5j-FB-Euk"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.2225401135505688" blue="0.89707084018205085" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="DYp-vs-SMI" firstAttribute="centerX" secondItem="aWh-nQ-noZ" secondAttribute="centerX" id="g9r-Om-mmN"/>
-                            <constraint firstItem="DYp-vs-SMI" firstAttribute="centerY" secondItem="aWh-nQ-noZ" secondAttribute="centerY" id="oYP-Ug-wX8"/>
+                            <constraint firstItem="Cpn-hx-zgT" firstAttribute="centerX" secondItem="aWh-nQ-noZ" secondAttribute="centerX" id="1LK-2G-T22"/>
+                            <constraint firstItem="ET1-Tk-xxz" firstAttribute="top" secondItem="Cpn-hx-zgT" secondAttribute="bottom" constant="27" id="5lW-ie-Ppg"/>
+                            <constraint firstItem="ET1-Tk-xxz" firstAttribute="top" secondItem="Cpn-hx-zgT" secondAttribute="bottom" constant="41" id="EO1-0O-xCk"/>
+                            <constraint firstItem="Cpn-hx-zgT" firstAttribute="centerY" secondItem="aWh-nQ-noZ" secondAttribute="centerY" id="FUy-UG-VUd"/>
+                            <constraint firstItem="mU1-Tl-aZI" firstAttribute="top" secondItem="VmJ-WJ-Wer" secondAttribute="bottom" constant="49" id="Igu-ZT-n7O"/>
+                            <constraint firstItem="ET1-Tk-xxz" firstAttribute="top" secondItem="Cpn-hx-zgT" secondAttribute="bottom" constant="43" id="J1A-p9-dje"/>
+                            <constraint firstItem="ET1-Tk-xxz" firstAttribute="centerX" secondItem="aWh-nQ-noZ" secondAttribute="centerX" id="LtL-ol-POL"/>
+                            <constraint firstItem="VmJ-WJ-Wer" firstAttribute="centerX" secondItem="aWh-nQ-noZ" secondAttribute="centerX" id="ckD-vM-626"/>
+                            <constraint firstItem="VmJ-WJ-Wer" firstAttribute="centerX" secondItem="aWh-nQ-noZ" secondAttribute="centerX" id="r1E-NP-W09"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5lW-ie-Ppg"/>
+                                <exclude reference="EO1-0O-xCk"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="Cpn-hx-zgT" id="VGR-9v-hVg"/>
+                        <outlet property="passwordField" destination="ET1-Tk-xxz" id="QkD-Kh-Dyp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5gg-e2-X3G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,8 +256,12 @@ add annimation to present the concept of the App</string>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLN-7b-Fh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem title="Title" id="dqa-Or-u2L"/>
             </objects>
             <point key="canvasLocation" x="2527" y="417"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="VM4-LF-Mec"/>
+    </inferredMetricsTieBreakers>
 </document>

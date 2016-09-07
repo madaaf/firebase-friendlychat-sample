@@ -21,8 +21,11 @@ class ParentViewController: UIViewController {
   // appelé x fois; à chaque fois que la fenetre apparait
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
+    if navigationController?.topViewController == self {
+      configureTopBar()
+    }
+    setNeedsStatusBarAppearanceUpdate()
   }
-
   // contrainte activés
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
@@ -35,6 +38,25 @@ class ParentViewController: UIViewController {
   override func viewDidDisappear(animated: Bool) {
     super.viewDidDisappear(animated)
   }
-  
+
+
+  // *********************************************************************
+  // MARK: - Configure
+  func configureTopBar() {
+    if navigationController?.viewControllers.first != self {
+      addCustomBackButton()
+    }
+    navigationController!.navigationBar.barTintColor = navigationColor()
+  }
+
+  func navigationColor() -> UIColor {
+    return UIColor.blackColor()
+  }
+
+  func addCustomBackButton() {
+    let newBackButton = UIBarButtonItem()
+    newBackButton.tintColor = UIColor.whiteColor()
+    navigationItem.leftBarButtonItem = newBackButton
+  }
 
 }

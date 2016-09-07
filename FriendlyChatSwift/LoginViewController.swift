@@ -7,17 +7,21 @@
 //
 
 import Foundation
-
+import UIKit
 
 class LoginViewController: ParentViewController {
 
   // *********************************************************************
   // MARK: - IBOutlets
 
-
+  @IBOutlet weak var emailField: UITextField!
+  @IBOutlet weak var passwordField: UITextField!
 
   // *********************************************************************
   // MARK: - IBActions
+
+  @IBAction func connectionDidTap(sender: AnyObject) {
+  }
 
   // *********************************************************************
   // MARK: - Properties

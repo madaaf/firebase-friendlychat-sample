@@ -21,6 +21,7 @@
 		C25BBBB51D806BDE00459394 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BBBB41D806BDE00459394 /* InscriptionViewController.swift */; };
 		C25BBBB71D806BFB00459394 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BBBB61D806BFB00459394 /* TutorialViewController.swift */; };
 		C25BBBB91D806D0100459394 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25BBBB81D806D0100459394 /* Profile.storyboard */; };
+		C25BBBBB1D807BE300459394 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BBBBA1D807BE300459394 /* PortraitNavigationController.swift */; };
 		C26264111D77378500AA7993 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26264101D77378500AA7993 /* GoogleService-Info.plist */; };
 		C26264131D776D8300AA7993 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26264121D776D8300AA7993 /* Login.storyboard */; };
 		C26264161D776E7900AA7993 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26264151D776E7900AA7993 /* SplashViewController.swift */; };
@@ -48,6 +49,7 @@
 		C25BBBB41D806BDE00459394 /* InscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
 		C25BBBB61D806BFB00459394 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C25BBBB81D806D0100459394 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		C25BBBBA1D807BE300459394 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		C26264101D77378500AA7993 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C26264121D776D8300AA7993 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		C26264151D776E7900AA7993 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				5F5A537F1ADE67D500F81DF0 /* FCViewController.swift */,
 				2CA807BB1B21702E009AD7F2 /* MeasurementHelper.swift */,
 				2C8E6C2A1B16875B0073CE3D /* SignInViewController.swift */,
+				C25BBBBA1D807BE300459394 /* PortraitNavigationController.swift */,
 				2CA807BD1B217B21009AD7F2 /* AppState.swift */,
 				2C595F041B34B73A00355AE7 /* Constants.swift */,
 				5F5A537B1ADE67D500F81DF0 /* Supporting Files */,
@@ -293,6 +296,7 @@
 				2CA807BE1B217B21009AD7F2 /* AppState.swift in Sources */,
 				5F5A53801ADE67D500F81DF0 /* FCViewController.swift in Sources */,
 				5F5A537E1ADE67D500F81DF0 /* AppDelegate.swift in Sources */,
+				C25BBBBB1D807BE300459394 /* PortraitNavigationController.swift in Sources */,
 				C262641C1D77746200AA7993 /* AccountFirstConnectionViewController.swift in Sources */,
 				2CA807BC1B21702E009AD7F2 /* MeasurementHelper.swift in Sources */,
 				C25BBBB51D806BDE00459394 /* InscriptionViewController.swift in Sources */,
