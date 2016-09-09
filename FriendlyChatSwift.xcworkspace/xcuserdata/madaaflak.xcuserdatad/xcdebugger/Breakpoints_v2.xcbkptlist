@@ -49,38 +49,6 @@
             endingLineNumber = "35"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendlyChatSwift.TutorialViewController.viewDidAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "FriendlyChatSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "495013632.034911"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "@objc FriendlyChatSwift.TutorialViewController.viewDidAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "FriendlyChatSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "495013632.035106"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -97,38 +65,6 @@
             endingLineNumber = "37"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendlyChatSwift.TutorialViewController.viewDidAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "FriendlyChatSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "495013632.03705"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "@objc FriendlyChatSwift.TutorialViewController.viewDidAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "FriendlyChatSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "495013632.037186"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "120">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

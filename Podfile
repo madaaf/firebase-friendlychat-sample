@@ -10,6 +10,7 @@ pod 'Firebase/Auth'
 pod 'Firebase/Crash'
 pod 'Firebase/Database'
 pod 'Firebase/RemoteConfig'
+pod 'IQKeyboardManagerSwift'
 
 target 'FriendlyChatSwift' do
 end
