@@ -5,23 +5,23 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ybT-aw-DoP">
+        <!--Home View Controller-->
+        <scene sceneID="twv-12-SzB">
             <objects>
-                <viewController id="W1t-US-e2K" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="KCy-lM-Kzp" customClass="HomeViewController" customModule="FriendlyChatSwift" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DFq-v8-Rw6"/>
-                        <viewControllerLayoutGuide type="bottom" id="soE-Tr-apH"/>
+                        <viewControllerLayoutGuide type="top" id="rSP-qW-X7T"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hlm-iP-QkG"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1xx-Ug-4m0">
+                    <view key="view" contentMode="scaleToFill" id="XDY-dZ-fzo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k1G-TG-lut" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wci-uH-FDX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="181" y="374"/>
+            <point key="canvasLocation" x="351" y="311"/>
         </scene>
     </scenes>
 </document>

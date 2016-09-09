@@ -58,7 +58,7 @@
                   moduleName = "FriendlyChatSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "494960970.115451"
+                  timestampString = "495013632.034911"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "35"
@@ -73,60 +73,12 @@
                   moduleName = "FriendlyChatSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "494960970.11556"
+                  timestampString = "495013632.035106"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "35"
                   endingLineNumber = "35"
                   offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendlyChatSwift/SplashViewController.swift"
-            timestampString = "494960335.392599"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "viewDidAppear(_:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendlyChatSwift.SplashViewController.viewDidAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "FriendlyChatSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/SplashViewController.swift"
-                  timestampString = "494960970.126781"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "@objc FriendlyChatSwift.SplashViewController.viewDidAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "FriendlyChatSwift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/SplashViewController.swift"
-                  timestampString = "494960970.126893"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "120">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -154,7 +106,7 @@
                   moduleName = "FriendlyChatSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "494960970.129215"
+                  timestampString = "495013632.03705"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -169,7 +121,7 @@
                   moduleName = "FriendlyChatSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/madaaflak/Desktop/WORKSPACE-Swift/friendlychat/ios-starter/swift-starter/FriendlyChatSwift/TutorialViewController.swift"
-                  timestampString = "494960970.129316"
+                  timestampString = "495013632.037186"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -177,6 +129,22 @@
                   offsetFromSymbolStart = "120">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FriendlyChatSwift/AuthentificationFBParentViewController.swift"
+            timestampString = "495119641.350649"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "signedIn(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

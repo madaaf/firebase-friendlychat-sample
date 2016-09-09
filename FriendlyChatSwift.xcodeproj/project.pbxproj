@@ -28,12 +28,15 @@
 		C26264181D776ECA00AA7993 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26264171D776ECA00AA7993 /* ParentViewController.swift */; };
 		C262641A1D7773D300AA7993 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26264191D7773D300AA7993 /* LoginViewController.swift */; };
 		C262641C1D77746200AA7993 /* AccountFirstConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C262641B1D77746200AA7993 /* AccountFirstConnectionViewController.swift */; };
+		C2B375381D82F16D005D87FC /* AuthentificationFbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B375371D82F16D005D87FC /* AuthentificationFbManager.swift */; };
+		C2B3753A1D82F496005D87FC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B375391D82F496005D87FC /* Home.storyboard */; };
+		C2B3753C1D82F4AF005D87FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B3753B1D82F4AF005D87FC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1037935F1BF4256400C88958 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Pods/Firebase/Headers/module.modulemap; sourceTree = "<group>"; };
 		107960721C612531003DB6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		107960741C61253B003DB6CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107960741C61253B003DB6CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		2C595F041B34B73A00355AE7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C85627D1AFAB65F00F0B24B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		2C85627E1AFAB65F00F0B24B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +59,9 @@
 		C26264171D776ECA00AA7993 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		C26264191D7773D300AA7993 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C262641B1D77746200AA7993 /* AccountFirstConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountFirstConnectionViewController.swift; sourceTree = "<group>"; };
+		C2B375371D82F16D005D87FC /* AuthentificationFbManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthentificationFbManager.swift; sourceTree = "<group>"; };
+		C2B375391D82F496005D87FC /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C2B3753B1D82F4AF005D87FC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF17DB8A4CA98949C1842A0A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,12 +90,12 @@
 		5F5A53431ADE670C00F81DF0 = {
 			isa = PBXGroup;
 			children = (
-				C26264101D77378500AA7993 /* GoogleService-Info.plist */,
-				2C85627A1AFAB65F00F0B24B /* shared */,
-				5F5A537A1ADE67D500F81DF0 /* FriendlyChatSwift */,
-				5F5A534D1ADE670C00F81DF0 /* Products */,
 				AD1F1C80A93A096F652504F5 /* Frameworks */,
+				5F5A537A1ADE67D500F81DF0 /* FriendlyChatSwift */,
 				7DA74FF01AC0A99F86B2844A /* Pods */,
+				5F5A534D1ADE670C00F81DF0 /* Products */,
+				2C85627A1AFAB65F00F0B24B /* shared */,
+				C26264101D77378500AA7993 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,15 +110,18 @@
 		5F5A537A1ADE67D500F81DF0 /* FriendlyChatSwift */ = {
 			isa = PBXGroup;
 			children = (
+				107960741C61253B003DB6CC /* Info.plist */,
+				C2B375361D82F146005D87FC /* Manager */,
+				C2B375351D82F131005D87FC /* Model */,
 				C26264141D776E6900AA7993 /* Controller */,
+				5F5A537B1ADE67D500F81DF0 /* Supporting Files */,
 				5F5A537D1ADE67D500F81DF0 /* AppDelegate.swift */,
-				5F5A537F1ADE67D500F81DF0 /* FCViewController.swift */,
-				2CA807BB1B21702E009AD7F2 /* MeasurementHelper.swift */,
-				2C8E6C2A1B16875B0073CE3D /* SignInViewController.swift */,
-				C25BBBBA1D807BE300459394 /* PortraitNavigationController.swift */,
 				2CA807BD1B217B21009AD7F2 /* AppState.swift */,
 				2C595F041B34B73A00355AE7 /* Constants.swift */,
-				5F5A537B1ADE67D500F81DF0 /* Supporting Files */,
+				5F5A537F1ADE67D500F81DF0 /* FCViewController.swift */,
+				2CA807BB1B21702E009AD7F2 /* MeasurementHelper.swift */,
+				C25BBBBA1D807BE300459394 /* PortraitNavigationController.swift */,
+				2C8E6C2A1B16875B0073CE3D /* SignInViewController.swift */,
 			);
 			path = FriendlyChatSwift;
 			sourceTree = "<group>";
@@ -120,12 +129,12 @@
 		5F5A537B1ADE67D500F81DF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				107960711C612531003DB6CC /* Main.storyboard */,
 				C26264121D776D8300AA7993 /* Login.storyboard */,
-				107960741C61253B003DB6CC /* Info.plist */,
+				107960711C612531003DB6CC /* Main.storyboard */,
 				C25BBBB81D806D0100459394 /* Profile.storyboard */,
+				C2B375391D82F496005D87FC /* Home.storyboard */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7DA74FF01AC0A99F86B2844A /* Pods */ = {
@@ -149,14 +158,30 @@
 		C26264141D776E6900AA7993 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C26264171D776ECA00AA7993 /* ParentViewController.swift */,
-				C26264151D776E7900AA7993 /* SplashViewController.swift */,
-				C26264191D7773D300AA7993 /* LoginViewController.swift */,
 				C262641B1D77746200AA7993 /* AccountFirstConnectionViewController.swift */,
 				C25BBBB41D806BDE00459394 /* InscriptionViewController.swift */,
+				C26264191D7773D300AA7993 /* LoginViewController.swift */,
+				C26264171D776ECA00AA7993 /* ParentViewController.swift */,
+				C26264151D776E7900AA7993 /* SplashViewController.swift */,
 				C25BBBB61D806BFB00459394 /* TutorialViewController.swift */,
+				C2B3753B1D82F4AF005D87FC /* HomeViewController.swift */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2B375351D82F131005D87FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C2B375361D82F146005D87FC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C2B375371D82F16D005D87FC /* AuthentificationFbManager.swift */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +258,7 @@
 				2C8562851AFAB65F00F0B24B /* Images.xcassets in Resources */,
 				C25BBBB91D806D0100459394 /* Profile.storyboard in Resources */,
 				2C8562831AFAB65F00F0B24B /* Icon@2x.png in Resources */,
+				C2B3753A1D82F496005D87FC /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +322,10 @@
 				2CA807BE1B217B21009AD7F2 /* AppState.swift in Sources */,
 				5F5A53801ADE67D500F81DF0 /* FCViewController.swift in Sources */,
 				5F5A537E1ADE67D500F81DF0 /* AppDelegate.swift in Sources */,
+				C2B3753C1D82F4AF005D87FC /* HomeViewController.swift in Sources */,
 				C25BBBBB1D807BE300459394 /* PortraitNavigationController.swift in Sources */,
 				C262641C1D77746200AA7993 /* AccountFirstConnectionViewController.swift in Sources */,
+				C2B375381D82F16D005D87FC /* AuthentificationFbManager.swift in Sources */,
 				2CA807BC1B21702E009AD7F2 /* MeasurementHelper.swift in Sources */,
 				C25BBBB51D806BDE00459394 /* InscriptionViewController.swift in Sources */,
 				C26264161D776E7900AA7993 /* SplashViewController.swift in Sources */,
@@ -316,6 +344,7 @@
 				107960721C612531003DB6CC /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
