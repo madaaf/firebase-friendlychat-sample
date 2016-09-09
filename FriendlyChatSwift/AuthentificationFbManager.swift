@@ -19,4 +19,41 @@ class AuthentificationFbManager {
     NSNotificationCenter.defaultCenter().postNotificationName(Constants.NotificationKeys.SignedIn, object: nil, userInfo: nil)
   }
 
+
+  func signedUp(email: String, password: String, completion: (FIRUser?, NSError?) -> ()) {
+    FIRAuth.auth()?.createUserWithEmail(email, password: password) { (user, error) in
+      if let error = error {
+        print(error.localizedDescription)
+        completion(nil, error)
+      } else {
+        self.setDisplayName(user!)
+      }
+    }
+  }
+
+  func signOut(completion: NSError? ->()) {
+    let firebaseAuth = FIRAuth.auth()
+    do {
+      try firebaseAuth?.signOut()
+      AppState.sharedInstance.signedIn = false
+      completion(nil)
+    } catch let signOutError as NSError {
+      completion(signOutError)
+      print ("Error signing out: \(signOutError)")
+    }
+  }
+
+  private func setDisplayName(user: FIRUser) {
+    let changeRequest = user.profileChangeRequest()
+    changeRequest.displayName = user.email!.componentsSeparatedByString("@")[0]
+    changeRequest.commitChangesWithCompletion(){ (error) in
+      if let error = error {
+        print(error.localizedDescription)
+        return
+      }
+      self.signedIn(FIRAuth.auth()?.currentUser)
+    }
+  }
+
+
 }

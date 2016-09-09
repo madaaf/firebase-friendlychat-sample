@@ -16,7 +16,20 @@
                     <view key="view" contentMode="scaleToFill" id="XDY-dZ-fzo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thh-Ar-6UT">
+                                <rect key="frame" x="266.5" y="285" width="67" height="30"/>
+                                <state key="normal" title="SIGNOUT"/>
+                                <connections>
+                                    <action selector="signOutDidTap:" destination="KCy-lM-Kzp" eventType="touchUpInside" id="lfE-QV-W7Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Thh-Ar-6UT" firstAttribute="centerY" secondItem="XDY-dZ-fzo" secondAttribute="centerY" id="KUf-3c-kNi"/>
+                            <constraint firstItem="Thh-Ar-6UT" firstAttribute="centerX" secondItem="XDY-dZ-fzo" secondAttribute="centerX" id="NmS-Fb-PBn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wci-uH-FDX" userLabel="First Responder" sceneMemberID="firstResponder"/>
